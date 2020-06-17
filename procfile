@@ -1,2 +1,2 @@
-# Let's work on `master` for this specific case, not in a branch.
-touch Procfile
+# Procfile
+web: gunicorn wsgi:app
